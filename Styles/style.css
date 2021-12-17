@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#292736;
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+.homeSection{
+    height: 1000px;
+}
+.leftDivHome{
+    width: 50%;
+    height: 100%;
+    background-color: #ff8f72;
+    border: 1px solid black;
+}
+.rightDivHome{
+    width: 50%;
+    height: 100%;
+    background-color: #fe7450;
+}
